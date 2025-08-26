@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Moises Ulises Cervantes Méndez</title>
+  <meta name="description" content="Página personal de Moisés Ulises Cervantes Méndez - Estudiante de Ingeniería en Sistemas y Derecho. Programador, desarrollador de videojuegos y creador de tiendas online.">
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#06b6d4;--muted:#9aa6b2;--glass: rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;background:linear-gradient(180deg,#071124 0%,#071824 60%);color:#e6eef4;line-height:1.5}
+    .container{max-width:1000px;margin:36px auto;padding:20px}
+    header{display:flex;align-items:center;gap:18px}
+    .avatar{width:96px;height:96px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#0ea5a1);display:flex;align-items:center;justify-content:center;font-weight:700;color:#042029}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{margin-top:6px;color:var(--muted)}
+    nav{margin-left:auto}
+    nav a{color:var(--muted);text-decoration:none;margin-left:12px}
+    .card{background:var(--card);padding:18px;border-radius:12px;margin-top:20px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}header{flex-direction:column;align-items:flex-start}.avatar{width:84px;height:84px}}
+    .skills{display:flex;gap:8px;flex-wrap:wrap}
+    .skill{background:var(--glass);padding:8px 10px;border-radius:999px;color:var(--muted);font-weight:600}
+    .contact-list{list-style:none;padding:0;margin:0}
+    .contact-list li{padding:8px 0;border-bottom:1px dashed rgba(255,255,255,0.03)}
+    a.cta{display:inline-block;margin-top:12px;padding:10px 16px;border-radius:10px;background:linear-gradient(90deg,var(--accent),#0891b2);color:#042029;text-decoration:none;font-weight:700}
+    footer{margin-top:28px;color:var(--muted);font-size:0.9rem;text-align:center}
+    blockquote{margin:0;padding:12px 16px;border-left:3px solid var(--accent);background:linear-gradient(90deg,rgba(6,182,212,0.03),transparent);border-radius:8px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">MU</div>
+      <div>
+        <h1>Moíses Ulises Cervantes Méndez</h1>
+        <p class="lead">Estudiante de Ingeniería en Sistemas • Estudiante de Derecho • Originario de la Mosquitia</p>
+      </div>
+      <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <section class="card" id="about">
+      <h2>Hola, soy Moisés Ulises</h2>
+      <p>Hola, mi nombre es <strong>Moisés Ulises Cervantes Méndez</strong>, originario de la Mosquitia, gracias a Dios. Soy estudiante de <strong>Ingeniería en Sistemas</strong> en la Universidad Politécnica de Honduras y, al mismo tiempo, curso la carrera de <strong>Derecho</strong> en la Universidad Católica de Honduras.</p>
+
+      <p>Me enorgullece llevar en alto mis raíces, pues pertenezco a una tierra rica en historia, cultura y tradiciones: la Mosquitia, hogar del pueblo misquito. Nuestros ancestros han sabido convivir en armonía con la naturaleza, preservando su identidad, sus costumbres y su idioma, como herencia viva que nos recuerda que la dignidad y el respeto son la base de toda sociedad.</p>
+
+      <blockquote>“El pueblo misquito nos enseña que la verdadera riqueza no está en lo material, sino en la unidad, en la fuerza de la comunidad y en el respeto a la tierra que nos vio nacer.”</blockquote>
+
+      <p style="margin-top:12px">Como estudiante de Derecho, creo que la justicia es un compromiso moral con la verdad y la equidad. Como estudiante de Ingeniería en Sistemas, entiendo que la tecnología transforma realidades y abre caminos al progreso. Mi aspiración es servir a los demás y levantar la voz de quienes pocas veces son escuchados.</p>
+
+      <ul style="margin-top:12px;color:var(--muted)">
+        <li><strong>Nombre completo:</strong> Moisés Ulises Cervantes Méndez</li>
+        <li><strong>Origen:</strong> Mosquitia</li>
+        <li><strong>Edad:</strong> 23 años</li>
+        <li><strong>Estado civil:</strong> Soltero</li>
+        <li><strong>Estudios:</strong> Ingeniería en Sistemas (UPH) • Derecho (Universidad Católica de Honduras)</li>
+      </ul>
+    </section>
+
+    <div class="grid">
+      <main class="card">
+        <section id="servicios">
+          <h3>Qué hago</h3>
+          <p>Me dedico a:</p>
+          <div class="skills">
+            <span class="skill">Programación</span>
+            <span class="skill">Desarrollo de videojuegos</span>
+            <span class="skill">Tiendas online (e‑commerce)</span>
+            <span class="skill">Plataformas virtuales</span>
+          </div>
+
+          <h4 style="margin-top:14px">Proyectos destacados</h4>
+          <p class="muted">(Aquí puedes agregar enlaces o muestras de trabajos: repositorios, capturas de pantalla o demos.)</p>
+
+          <h4 style="margin-top:12px">Mensaje personal</h4>
+          <p>Quiero expresar con humildad que mi aspiración es servir a los demás con responsabilidad y demostrar que la educación es el puente más sólido hacia un futuro digno.</p>
+        </section>
+
+        <section style="margin-top:18px">
+          <h3>Disponibilidad</h3>
+          <p>Ofrezco servicios de desarrollo por encargo, colaboraciones estudiantiles y soporte técnico. Ponte en contacto y coordinamos.</p>
+          <a class="cta" href="mailto:moises.cervantes@uph.edu.hn">Escríbeme por correo</a>
+        </section>
+      </main>
+
+      <aside class="card" id="contacto">
+        <h3>Contacto</h3>
+        <ul class="contact-list">
+          <li><strong>Correo:</strong> <a href="mailto:moises.cervantes@uph.edu.hn">moises.cervantes@uph.edu.hn</a></li>
+          <li><strong>WhatsApp:</strong> <a href="https://wa.me/50492772689" target="_blank" rel="noopener">+504 9277‑2689</a></li>
+          <li><strong>Profesión / dedicación:</strong> Programar, crear videojuegos, crear tiendas online, plataformas virtuales</li>
+        </ul>
+
+        <h4 style="margin-top:14px">Redes</h4>
+        <p class="muted">(Añade tus enlaces a GitHub, LinkedIn:no disponible. Instagram como:moises23, etc. para completar el perfil.)</p>
+      </aside>
+    </div>
+
+    <footer>
+      <p>© <span id="year"></span> Moisés Ulises Cervantes Méndez — Hecho con dedicación desde la Mosquitia.</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
